@@ -9,7 +9,7 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>Job App form</h1>
-	<form action="" method="get">
+	<form method="post">
 		<div class="name-div">
 			<label for="name">Name</label>
 			<input type="text" id="name" name="name" required>
@@ -19,9 +19,9 @@
 			<input type="email" name="email" id="email">
 		</div>
 		<div class="gender-div">
-			<label for="gender">Gender</label>
+			<label for="male">Gender</label>
 			<input type="radio" name="gender" id="male" required>
-			<label for="gender">Male</label>
+			<label for="female">Male</label>
 			<input type="radio" name="gender" id="female" required>
 			<label for="gender">Female</label>
 		</div>
@@ -46,13 +46,15 @@
 			<label for="password">Password</label>
 			<input type="password" name="password" id="password" required>
 		</div>
+		<div class="portfolio">
+			<label for="portfolio">Portfolio</label>
+			<input type="url" name="portfolio" id="portfolio">
+		</div>
 		<div class="submit-btn">
 			<button type="submit">Submit</button>
 		</div>
 	</form>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
